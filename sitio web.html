@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>elempleo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet"> 
+</head>
+<body>
+	<div style="text-align: center; display: flex;">
+		<div style="margin: 10px; margin-left: 40px; display: flex;">
+			<img src="./logo.png">
+			<h1>elempleo</h1> 
+		</div>
+		<div>
+			<form class="form-inline my-2 my-md-0">
+         		 <input class="form-control" type="text" placeholder="Search" aria-label="Search" style="width: 400px;margin-left: 400px; margin-top:  20px;">
+        	</form>
+    	</div>
+    	<div style="margin-left: 250px;text-align: left;">
+    		<form>
+    			<input type="button" name="btnIni" value="Iniciar sesion" onclick="window.open('./1.html')";><br>
+    			<input type="button" name="btnRH" value="Registrar hoja de vida" onclick="window.open('https://www.elempleo.com/co/registro-hoja-de-vida')";>
+    		</form>
+    	</div>
+	</div>
+		<div class="btn-toolbar" role="toolbar" style="background-color: #6495ED; margin-left: 20px;margin-right: 350px;">
+  			<div class="btn-group">
+    			<button type="button" class="btn btn-default" style="width: 310px; border-right: 1px solid white; color: white;" onclick="location.reload();">Inicio</button>
+    			<button type="button" class="btn btn-default" style="width: 310px; border-right: 1px solid white; color: white;" onclick="window.open('https://www.elempleo.com/co/empleo-vip')">elempleoVIP</button>
+    			<button type="button" class="btn btn-default" style="width: 310px; border-right: 1px solid white; color: white;">Hoja de vida</button>
+    			<button type="button" class="btn btn-default" style="width: 310px; border-right: 1px solid white; color: white;" onclick="window.open('https://www.elempleo.com/co/calculadora-salarial')">Calculadora Salarial</button>
+  			</div>
+  		</div>
+ <div style="display: flex; margin: 10px;">
+  	<div style="	 width: 20%; margin: 10px;" >
+  		<div style="margin: 10px;">
+  			<h5>Ciudad</h5>
+  			<div class="btn-group">
+			  <button type="button" class="btn btn-default dropdown-toggle"
+			          data-toggle="dropdown" style="border: 2px solid blue;">
+			    Todas las ciudades <span class="caret"></span>
+			  </button>
+
+			  <ul class="dropdown-menu" role="menu">
+			    <li><a href="#">Acción #1</a></li>
+			    <li><a href="#">Acción #2</a></li>
+			    <li><a href="#">Acción #3</a></li>
+			    <li class="divider"></li>
+			    <li><a href="#">Acción #4</a></li>
+			  </ul>
+			</div>
+  		</div>
+  		<div style="margin: 10px;">
+  			<h5>Fecha de publicacion</h5>
+  				<input type="radio" name="r1" checked>   Hoy y ayer<br>
+  				<input type="radio" name="r1">   Hace 1 semana<br>
+  				<input type="radio" name="r1">   Hace 2 semanas<br>
+  				<input type="radio" name="r1">   Hace 1 mes<br>
+  				<input type="radio" name="r1">   Hace mas de un mes<br>
+  		</div>
+  		<div style="margin: 10px;">
+  			<h5>Area de trabajo</h5>
+  			<div class="btn-group">
+			  <button type="button" class="btn btn-default dropdown-toggle"
+			          data-toggle="dropdown" style="border: 2px solid blue;"> 
+			    Todas las areas <span class="caret"></span>
+			  </button>
+
+			  <ul class="dropdown-menu" role="menu">
+			    <li><a href="#">Acción #1</a></li>
+			    <li><a href="#">Acción #2</a></li>
+			    <li><a href="#">Acción #3</a></li>
+			    <li class="divider"></li>
+			    <li><a href="#">Acción #4</a></li>
+			  </ul>
+			</div>
+  		</div>
+  		<div style="margin: 10px;">
+  			<h5>Crear alerta de empleo.</h5>
+  			<input type="text" name="txt" placeholder="correo"><input type="button" name="btnCA" value="crear">
+  		</div>
+  	</div>
+  	<div style=" margin: 10px;width: 55%;height: 500px; overflow: auto; border: 1px solid black;">
+  		<div style="height: 150px; border: 1px solid black; display: flex;">
+  			<div style="margin: 10px;"><img src="./logo1.png" style="border: 1px solid black; margin-top: 30px; margin-left: 20px; margin-right: 20px;">
+  			</div>
+  			<div style="margin: 20px; width: 200px;">
+  				<h6 style="color:#4169E1 ">Ingeniero desarrollador de software</h6>
+  				Empresa confidencial<br>
+  				$2.5 $3<br>
+  				Bogotá D.C.<br>
+  			</div>
+  			<div style="margin-top: 100px; margin-left: 10px;width: 150px;">
+  				Publicado 6 abr 2020
+  			</div>
+  			<div style="margin-top: 50px; margin-left: 70px;">
+  				<input type="button" name="btnDes" value="Vista Rapida" style="background-color: white; border:2px solid blue; color: #0000CD; border-radius: 7px; width: 140px; height: 35px;" onclick="window.open('https://www.elempleo.com/co/ofertas-trabajo/ingeniero-desarrollador-de-software/1884496757')">
+  			</div>
+  		</div>
+  		<div style="height: 150px; border: 1px solid black; display: flex;">
+  			<div style="margin: 10px;"><img src="./logo2.png" style="border: 1px solid black; margin-top: 30px; margin-left: 20px; margin-right: 20px;">
+  			</div>
+  			<div style="margin: 20px; width: 200px;">
+  				<h6 style="color:#4169E1 ">Practicante Universitario</h6>
+  				Davivienda<br>
+  				$1 a $1.5 millones<br>
+  				Bogotá D.C.<br>
+  			</div>
+  			<div style="margin-top: 100px; margin-left: 10px; width: 150px;">
+  				Publicado 7 abr 2020
+  			</div>
+  			<div style="margin-top: 50px; margin-left: 70px;">
+  				<input type="button" name="btnDes" value="Vista Rapida" style="background-color: white; border:2px solid blue; color: #0000CD; border-radius: 7px; width: 140px; height: 35px;" onclick="window.open('https://www.elempleo.com/co/ofertas-trabajo/practicante-universitario/1884496914')">
+  			</div>
+  		</div>
+  		<div style="height: 150px; border: 1px solid black; display: flex;">
+  			<div style="margin: 10px;"><img src="./logo3.png" style="border: 1px solid black; margin-top: 30px; margin-left: 20px; margin-right: 20px; width: 130px;">
+  			</div>
+  			<div style="margin: 20px; width: 200px;">
+  				<h6 style="color:#4169E1 ">Desarrollador bases de datos SQL Java</h6>
+  				PERIFERIA IT CORP SAS<br>
+  				$4 a $4.5 millones<br>
+  				Bogotá D.C.<br>
+  			</div>
+  			<div style="margin-top: 100px; margin-left: 10px; width: 150px;">
+  				Publicado 8 abr 2020
+  			</div>
+  			<div style="margin-top: 50px; margin-left: 70px;">
+  				<input type="button" name="btnDes" value="Vista Rapida" style="background-color: white; border:2px solid blue; color: #0000CD; border-radius: 7px; width: 140px; height: 35px;" onclick="window.open('https://www.elempleo.com/co/ofertas-trabajo/desarrollador-bases-de-datos-sql-java/1884497323')">
+  			</div>
+  		</div>
+  		<div style="height: 150px; border: 1px solid black;">Oferta 4</div>
+  		<div style="height: 150px; border: 1px solid black;">Oferta 5</div>
+  		<div style="height: 150px; border: 1px solid black;">Oferta 6</div>
+  		<div style="height: 150px; border: 1px solid black;">Oferta 7</div>
+  		<div style="height: 150px; border: 1px solid black;">Oferta 8</div>
+  		<div style="height: 150px; border: 1px solid black;">Oferta ...</div>
+  		<div style="height: 150px; border: 1px solid black;">Oferta 20</div>
+  	</div>
+  	<div style="margin: 10px; width: 20%;">
+  		<div style="margin: 10px;">
+  			<h5>Salario (en millones de pesos)</h5>
+  			<input type="radio" name="r2" checked>   Menos de $1<br>
+  			<input type="radio" name="r2">   $1 a $1.5<br>
+  			<input type="radio" name="r2">   $1.5 a $2<br>
+  			<input type="radio" name="r2">   $2 a $3<br>
+  			<input type="radio" name="r2">   $3 a $4<br>
+  			<input type="radio" name="r2">   $4 a $5<br>
+  			<input type="radio" name="r2">   $5 en adelante<br>
+  			<input type="radio" name="r2">   A convenir<br>
+  		</div>
+  		<div style="margin: 10px;">
+  			<h5>Busquedas rapidas</h5>
+  			<ul style= "list-style-type: square">
+  				<li>Trabajo sin experiencia</li>
+  				<li>Trabajo en Bogotá</li>
+ 				<li>Trabajo para univeristarios</li>
+ 				<li>Trabajo en call center</li>
+ 				<li>Trabajo en Medellin</li>
+ 				<li>Trabajo en ventas</li>
+			</ul>
+  		</div>
+  	</div>
+  </div>
+  <div style="display: flex; margin-left: 300px;">
+  	<div>
+  		Resultados por pagina
+  		<input type="text" name="num" value="20" style="width: 30px;">
+  	</div>
+  	<div class="btn-toolbar" role="toolbar" style="margin-left: 350px;">
+  		<div class="btn-group">
+    		<button type="button" class="btn btn-default" style="border: 1px solid black;">1</button>
+    		<button type="button" class="btn btn-default" style="border: 1px solid black;">2</button>
+    		<button type="button" class="btn btn-default" style="border: 1px solid black;">3</button>
+    		<button type="button" class="btn btn-default" style="border: 1px solid black;">4</button>
+    		<button type="button" class="btn btn-default" style="border: 1px solid black;">5</button>
+    		<button type="button" class="btn btn-default" style="border: 1px solid black;">6</button>
+    		<button type="button" class="btn btn-default" style="border: 1px solid black;">7</button>
+    		<button type="button" class="btn btn-default" style="border: 1px solid black;">8</button>
+    		<button type="button" class="btn btn-default" style="border: 1px solid black;">9</button>
+    		<button type="button" class="btn btn-default" style="border: 1px solid black;">10</button>
+    		<button type="button" class="btn btn-default" style="border: 1px solid black;">>></button>
+  		</div>
+  	</div>
+  </div>
+  <div style="border: 1px solid black;margin: 20px; height: 250px; background-color: black; display: flex;">
+  	<div style="color: white; margin: 50px;">
+  		Av. Calle 26 # 68B-70 Bogotá - Colombia<br>
+        (57) (1) - 294 - 0100 Ext: 2011<br>
+ 		Línea nacional gratuita:<br>
+		01 8000 123456<br>
+ 		info@elempleo.com<br>
+		info@elempleo.com<br>
+  	</div>
+  	<div style="color: white;  margin-left: 100px; margin-top: 30px;">
+  		Ayuda<br>
+		Portal bases universitarias<br>
+		Términos y condiciones<br>
+		Aviso de privacidad<br>
+		Protección de datos<br>
+		Pauta con nosotros<br>
+		Línea Ética<br>
+		Reversiones de pago<br>
+  	</div>
+  	<div style="margin-left: 200px; margin-top: 80px;">
+  		<img src="./logoBlanco.png">
+  	</div>
+  	<div style="color: white; margin-left: 150px; margin-top: 30px;">
+  		<h5>Siguenos</h5>
+  		Facebook<br>
+  		Twitter<br>
+  		Youtube<br>
+  		Instagram<br><br>
+  		<img src="./bandera.jpg" style="width: 100px; height: 50px;"> Colombia
+  	</div>
+  </div>
+</body>
+</html>
