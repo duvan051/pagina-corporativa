@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="css/bootstrap.min.css" rel="stylesheet"> 
+  	<script type="text/javascript" src="funciones.js"></script>
+  		<meta charset="utf-8">
+
+</head>
+<body >
+	<h1 style="margin-left: 590px;">Formulario de registro</h1>
+	<div style="text-align: center; margin-left: 550px;">
+		<div style="border: 1px solid black; width: 500px; border-radius: 7px; background-color: #DCDCDC;">
+            <form  id="formdata" action="vista.html" target="_self" name="frmDatos">
+                <div class="form-group col-sm-12" >
+                    <label for="nombre">Nombre: </label>
+                    <input type="text"  class="form-control" name="nombre" id="nombrei" required="required">
+                </div>
+                <div class="form-group col-sm-12">
+                    <label for="apellidos">Apellidos: </label>
+                    <input type="text" class="form-control" name="apellidos" id="apellidosi" required="required">
+                </div>
+                <div class="form-group col-sm-12">
+                    <label for="direccion">Dirección: </label>
+                    <input type="text" class="form-control" name="direccion" id="direccioni" required="required">
+                </div>
+                <div class="form-group col-sm-12">
+                    <label for="Cedula">Cedula: </label>
+                    <input type="text" class="form-control" name="cedula" id="cedulai" required="required">
+                </div>
+                <div class="form-group col-sm-12">
+                    <label for="celular">Celular: </label>
+                    <input type="text" class="form-control" name="celular" id="celulari" required="required">
+                </div>
+                <div class="form-group col-sm-12">
+                    <label for="email">Email: </label>
+                    <input type="text" class="form-control" name="email" id="emaili" required="required">
+                </div>
+                <div class="form-group col-sm-12">
+               <input class="btn btn-primary" type="submit" value="Enviar">
+               </div>
+            </form>
+        </div>
+	</div>
+</body>
+</html>
